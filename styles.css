@@ -84,5 +84,6 @@ section ul {
 
 .channel-list img {
     width: 70px;
+    border: 1px solid #443E54;
     border-radius: 50%;
 }
