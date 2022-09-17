@@ -21,6 +21,24 @@ body * {
     line-height: 160%;
 }
 
+header {
+    padding-top: 32px;
+}
+
+header div {
+    display: flex;
+    width: 120px;
+    margin: auto;
+    padding: 4px;
+    border-radius: 50%;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);;
+}
+
+header img {
+    width: 100%;
+    border-radius: 50%;
+}
+
 main {
     display: grid;
     gap: 24px;
