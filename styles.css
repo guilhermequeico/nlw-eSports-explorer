@@ -27,8 +27,7 @@ main {
 
     max-width: 580px;
     width: 90%;
-    margin: auto;
-    margin-top: 32px;
+    margin: 32px auto;
 }
 
 section {
