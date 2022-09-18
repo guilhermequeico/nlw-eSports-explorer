@@ -22,6 +22,7 @@ body * {
 }
 
 header {
+    height: calc(120px + 32px);
     padding-top: 32px;
 }
 
@@ -99,4 +100,22 @@ section ul li:hover {
     width: 70px;
     border: 1px solid #443E54;
     border-radius: 50%;
+}
+
+/*Animation*/
+
+header div {
+    animation: fromTop .7s .4s backwards;
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
